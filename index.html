@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EA // SYSTEM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="brand">ENLACE<span>ACADEMY</span></div>
+        <button id="safety-switch" onclick="togglePrivacy()">HIDE SCREEN</button>
+    </header>
+
+    <div id="main-content" class="container">
+        <div class="module">
+            <small>01 // NEURAL FOCUS</small>
+            <div class="display" id="timer">25:00</div>
+            <button onclick="startTimer()">INITIATE</button>
+        </div>
+
+        <div class="module">
+            <small>02 // DAILY RECALL</small>
+            <textarea id="recall-input" placeholder="Secure input..."></textarea>
+            <button onclick="saveRecall()">ARCHIVE</button>
+        </div>
+
+        <div class="module priority">
+            <small>03 // SUPPORT LINE</small>
+            <p>Direct priority access for Enlace students.</p>
+            <button class="pink-btn" onclick="openSupport()">REQUEST ACCESS</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
 
