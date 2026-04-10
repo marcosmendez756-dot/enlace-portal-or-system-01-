@@ -1,1 +1,55 @@
+body {
+    background-color: #050505;
+    color: #e0e0e0;
+    font-family: 'Helvetica', sans-serif;
+    padding: 40px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.brand { font-weight: bold; letter-spacing: 2px; }
+.brand span { color: #ffb7c5; margin-left: 5px; }
+
+/* The Safety Blur */
+.hidden {
+    filter: blur(40px);
+    opacity: 0.1;
+    pointer-events: none;
+}
+
+#safety-switch {
+    background: #ffb7c5;
+    color: #000;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.module {
+    background: #0d0d0d;
+    padding: 30px;
+    border: 1px solid #1a1a1a;
+    border-radius: 4px;
+}
+
+.pink-btn {
+    border: 1px solid #ffb7c5;
+    color: #ffb7c5;
+    background: transparent;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
 
